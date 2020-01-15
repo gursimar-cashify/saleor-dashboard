@@ -60,7 +60,9 @@ module.exports = (env, argv) => {
       contentBase: path.join(__dirname, dashboardBuildPath),
       historyApiFallback: true,
       hot: true,
+      host: '0.0.0.0',
       port: 9000
+
     },
     devtool: "sourceMap",
     entry: {
