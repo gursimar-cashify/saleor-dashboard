@@ -2,8 +2,8 @@ import packageInfo from "../package.json";
 import { SearchVariables } from "./hooks/makeSearch";
 import { ListSettings, ListViews } from "./types";
 
-// export const APP_MOUNT_URI = process.env.APP_MOUNT_URI || "/dashboard/";
-export const APP_MOUNT_URI = "http://15.206.47.48:9000/";
+export const APP_MOUNT_URI = process.env.APP_MOUNT_URI || "/dashboard/";
+// export const APP_MOUNT_URI = "http://15.206.47.48:9000/";
 // export const API_URI = process.env.API_URI || "http://127.0.0.1:8000/graphql/";
 export const API_URI =
   process.env.API_URI || "http://15.206.47.48:8000/graphql/";
