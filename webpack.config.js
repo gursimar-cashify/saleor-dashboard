@@ -58,7 +58,7 @@ module.exports = (env, argv) => {
       compress: true,
       historyApiFallback: true,
       hot: true,
-      port: 9000
+      port: 8001
     },
     entry: {
       dashboard: "./src/index.tsx"
