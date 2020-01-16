@@ -58,6 +58,7 @@ module.exports = (env, argv) => {
       compress: true,
       historyApiFallback: true,
       hot: true,
+      host: '0.0.0.0',
       port: 8001
     },
     entry: {
