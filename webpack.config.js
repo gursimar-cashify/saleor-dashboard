@@ -61,7 +61,7 @@ module.exports = (env, argv) => {
       historyApiFallback: true,
       hot: true,
       host: '0.0.0.0',
-      port: 9000
+      port: 8001
 
     },
     devtool: "sourceMap",
